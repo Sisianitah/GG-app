@@ -65,7 +65,7 @@ class _SplashScreenState extends State<SplashScreen>
                 const Text(
                   "GG Designers",
                   style: TextStyle(
-                    color: Color(0xFFE91E63), // Signature pink
+                    color: Color.fromARGB(255, 8, 96, 62)5, 9, 94, 39), // Signature pink
                     fontSize: 26,
                     fontWeight: FontWeight.bold,
                     letterSpacing: 1.3,

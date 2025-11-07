@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
           'GG Designers',
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
-        backgroundColor: Color(0xFFE91E63), // pink 
+        backgroundColor: Color.fromARGB(255, 14, 119, 68), // pink 
         centerTitle: true,
       ),
       body: SingleChildScrollView(
@@ -28,7 +28,7 @@ class HomeScreen extends StatelessWidget {
                 width: 120,
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
-                  border: Border.all(color: Color(0xFFE91E63), width: 3),
+                  border: Border.all(color: Color.fromARGB(255, 14, 112, 78), width: 3),
                   image: const DecorationImage(
                     image: AssetImage('assets/images/logo1.jpeg'),
                     fit: BoxFit.cover,
@@ -42,7 +42,7 @@ class HomeScreen extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.bold,
-                  color: Color(0xFFE91E63),
+                  color: Color.fromARGB(255, 14, 108, 85),
                 ),
                 textAlign: TextAlign.center,
               ),
