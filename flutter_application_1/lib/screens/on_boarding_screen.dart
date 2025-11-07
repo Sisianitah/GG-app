@@ -30,17 +30,17 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
           },
           children: [
             buildPage(
-              image: 'images/coart2.jpeg',
+              image: '',
               title: 'Welcome to My App',
               description: 'Easily manage your tasks anywhere, anytime.',
             ),
             buildPage(
-              image: 'images/coart1.jpeg',
+              image: '',
               title: 'Stay Organized',
               description: 'Track your daily progress with smart reminders.',
             ),
             buildPage(
-              image: 'images/coart2.jpeg',
+              image: '/',
               title: 'Achieve Your Goals',
               description: 'Turn your plans into action effortlessly.',
             ),
