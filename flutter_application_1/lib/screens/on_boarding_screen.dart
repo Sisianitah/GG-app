@@ -17,7 +17,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
       body: Container(
         decoration: const BoxDecoration(
           gradient: LinearGradient(
-            colors: [Colors.white, Color(0xFFFFE4F1)], // white to soft pink
+            colors: [Colors.white, Color(0xFFFFE4F1)], // white to soft green
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
           ),

@@ -10,7 +10,7 @@ class ForgotPasswordScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Forgot Password"),
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: const Color.fromARGB(255, 7, 88, 30),
       ),
       body: Padding(
         padding: const EdgeInsets.all(20.0),
@@ -38,7 +38,7 @@ class ForgotPasswordScreen extends StatelessWidget {
                 );
               },
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.deepPurple,
+                backgroundColor: const Color.fromARGB(255, 10, 113, 67),
               ),
               child: const Text("Send Reset Link"),
             ),
